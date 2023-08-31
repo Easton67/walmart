@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;  
+@tailwind utilities;
+
+.nav-button{
+    @apply  whitespace-nowrap mt-6 px-5 py-3 rounded-full  hover:bg-darkBlue hover:cursor-pointer text-white font-bold;
+}
+
+.nav-button-right{
+    @apply  whitespace-nowrap mt-4 px-5 py-3 rounded-full hover:bg-darkBlue hover:cursor-pointer text-white font-bold;
+}
+
+.footer-link{
+    @apply text-white text-sm;
+}
+
+.btn{
+    @apply hover:cursor-pointer bg-white px-7 py-2 rounded-full font-semibold border-solid border-black border-2 hover:border-2;
+}
+
+.nav-item{
+    @apply text-white hover:underline font-semibold;
+}
+
+.shop{
+    @apply underline hover:cursor-pointer text-base;
+}
+
+.l-img-top{
+    @apply rounded-lg mt-6;
+}
+
+.r-img-top{
+    @apply rounded-lg mt-6;
+}
+
+.heart{
+    @apply z-30 -mt-48 ml-36 absolute rounded-full bg-white;
+}
+
+.card-img{
+    @apply mb-6;
+}
+
+.card-price{
+    @apply text-green-800 font-semibold;
+}
+
+.card-option{
+
+}
+
+.card-desc{
+ @apply mt-5;
+}
+
+.card-options{
+    @apply hover:cursor-pointer py-1 mt-3 mb-6 border-2 border-black font-semibold rounded-full text-center w-24;
+}
